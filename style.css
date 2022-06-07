@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+    margin: 16px;
+}
+
+.todos {
+    border: 1px solid black;
+    margin: 8px;
+    max-width: 100px;
+}
+
+.dragOver {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
